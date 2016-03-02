@@ -14,10 +14,10 @@ makeCacheMatrix <- function(x = matrix()) {
         ## 2nd function -- to get the matrix 
         get <- function() x
         
-        ## 3rd function - to set the mean 
+        ## 3rd function - to set the matrix 
         setsolve <- function(solve) m <<- solve
         
-        ## 4th function -- to get the mean
+        ## 4th function -- to get the matrix
         getsolve <- function() m
         list(set = set, get = get,
              setsolve = setsolve,
